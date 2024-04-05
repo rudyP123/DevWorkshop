@@ -1,0 +1,24 @@
+1. Check out the code reviewer guidelines for software engineers at Yelp and Microsoft (Visual Studio Mobile team). What concepts are similar between the companies (List at least two)? What are some key differences (List at least two)? In general, what items should be present in a code review checklist for a development team?
+
+The code reviewer guidelines from Yelp and Microsoft (Visual Studio Mobile team) share common concepts such as emphasizing respect and constructive feedback during reviews, and both highlight the importance of clarity in communication. Differences include Yelp's emphasis on timely reviews to avoid bottlenecks and Microsoft's use of emojis to clarify the tone and intent of comments. A code review checklist for a development team should include verifying code functionality, ensuring adherence to coding standards and styles, checking for code optimization and performance issues, reviewing test coverage and quality, and assessing the clarity and maintainability of the code.
+
+2. Find an example of a "good" code review. Provide a link to the review and explain why you found the review beneficial.
+
+https://codereview.stackexchange.com/questions/291330/multi-threaded-error-handling-data-fetching-script
+
+This example is good because it demonstrates clarity and specificity in the request for feedback. The author asks for insights on particular aspects of their code—exception handling, code duplication, and thread safety—highlighting areas of concern. This targeted approach helps reviewers focus their feedback on the most critical aspects of the code, making the review process more efficient and productive. The mention of proactive communication with the development team about API vulnerabilities also shows a responsible and professional approach to coding and security.
+
+3. Find an example of a "bad" code review. Provide a link to the review and briefly explain why you found the review not beneficial. In addition, include recommendations for improvement to the review feedback.
+
+https://codereview.stackexchange.com/questions/291332/centre-of-mass-based-tsp-solution-2
+
+This example serves as a case of a poorly structured code review request rather than a review itself. The issue arises from the broad request for efficiency improvements without pinpointing specific areas of concern within a lengthy piece of code. 
+
+To make such requests more effective, here are some possible solutions:
+
+Be Concise and Specific: Highlight particular sections or logic for efficiency review.
+
+Clarify Goals: Clearly state what the code aims to achieve and any specific performance targets or constraints.
+
+Seek Focused Feedback: Request insights on specific aspects like algorithmic efficiency, memory usage, or readability.
+Improving the structure and specificity of a request can significantly increase the likelihood of receiving constructive, actionable feedback.
