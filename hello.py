@@ -1,2 +1,1 @@
-print("Hello, my name is Rudra")
-
+print("Hello, my name is Farooq Khan")
